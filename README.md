@@ -1,10 +1,12 @@
 <h1>HttpClient getting access to the a Spring boot Security OAuth2 app</h1>
 
+<b>@farithjhg</b>
+
 This example is a client to the Spring Boot Security OAuth2 Sample
 
  http://projects.spring.io/spring-boot/
 
-Normally this example is test using CURL, but I decided to create a HttpClient Rest Client to simulate how one app can call a secureted rest services.
+Normally this example tests using CURL, but I decided to create a HttpClient Rest Client to simulate how one app can call a secured rest services.
 
 <pre>
 curl localhost:8080/oauth/token -d "grant_type=password&scope=read&username=greg&password=turnquist" -u foo:bar
